@@ -16,7 +16,7 @@ Typical usage might look something like this:
     1
     >>> idncheck.idncheck("φilosoφia")
     42
-    >>> idncheck.idncheck("φilosoφia", 3)
+    >>> idncheck.idncheck("φilosoφia", 3) # FIXME
     True
     >>> idncheck.idncheck("paypal")
     1
@@ -31,7 +31,7 @@ or
 
     import idncheck
 
-    idncheck.idencheck("φilosoφia", 3):
+    idncheck.idencheck("φilosoφia", 3): # FIXME
         print("I see what you're doing there")
 
 
