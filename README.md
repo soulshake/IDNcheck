@@ -6,6 +6,9 @@ is to be used for nefarious purposes such as phishing.
 It returns the unicode restriction level passed by a string, as described
 in Unicode Technical Standard #39, Unicode Security Mechanisms (see References).
 
+Note: On first run, it will automatically download a file if it doesn't exist:
+http://www.unicode.org/Public/UNIDATA/Scripts.txt
+
 ## How to use
 
 Typical usage might look something like this:
