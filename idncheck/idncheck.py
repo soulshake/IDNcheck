@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 from __future__ import print_function
 import sys
-# sys.path.append('/Users/amy/lib')
-# sys.path.append('/Users/amy/git/ninja-training/Python-IDN')
 import os.path
 
-# Accepts an identifier and returns information about the scripts it is composed of
+# Accepts an identifier (not FQDN) and returns information about the scripts it is composed of
 # Usage: ./check.py exampleIDN
 
 aspirational_use_scripts = set(
