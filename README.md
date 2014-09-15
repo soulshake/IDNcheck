@@ -13,30 +13,32 @@ http://www.unicode.org/Public/UNIDATA/Scripts.txt
 
 Typical usage might look something like this:
 
-    python
-    >>> import idncheck
-    >>> idncheck.idncheck("hello")
-    1
-    >>> idncheck.idncheck("φilosoφia")
-    42
-    >>> idncheck.idncheck("φilosoφia", 3) # FIXME
-    True
-    >>> idncheck.idncheck("paypal")
-    1
-    >>> idncheck.idncheck("paypаl")
-    4
-    >>> idncheck.idncheck("раура1")
-    4
+```python
+>>> import idncheck
+>>> idncheck.idncheck("hello")
+1
+>>> idncheck.idncheck("φilosoφia")
+42
+>>> idncheck.idncheck("φilosoφia", 3) # FIXME
+True
+>>> idncheck.idncheck("paypal")
+1
+>>> idncheck.idncheck("paypаl")
+4
+>>> idncheck.idncheck("раура1")
+4
+```
 
 or
 
-    #!/usr/bin/env python
+```python
+#!/usr/bin/env python
 
-    import idncheck
+import idncheck
 
-    idncheck.idencheck("φilosoφia", 3): # FIXME
-        print("I see what you're doing there")
-
+idncheck.idencheck("φilosoφia", 3): # FIXME
+    print("I see what you're doing there")
+```
 
 ## References
 
