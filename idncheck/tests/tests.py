@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from idncheck import idncheck
+# to add: https://www.iana.org/domains/reserved
 
 
 DATA = u"""

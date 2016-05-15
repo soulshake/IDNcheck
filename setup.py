@@ -4,7 +4,7 @@ setup(
     name='idncheck',
     version='0.1.0',
     author='AJ Bowen',
-    author_email='aj@gandi.net',
+    author_email='aj@soulshake.net',
     packages=['idncheck', 'idncheck.tests'],
     license='LICENSE.txt',
     description='Returns IDN restriction level of a string.',
